@@ -12,7 +12,7 @@ const bricolage = Bricolage_Grotesque({ variable: "--font-bricolage", subsets: [
 const __jsonld = {"@context":"https://schema.org","@type":"WebSite","name":"Noelle — UI/UX Designer","description":"Portfolio template for Noelle, a fictional UI/UX designer: calm, minimal case studies that link to six live demo sites (to-do apps and booking tools), plus articles on lists that forget, WIP limits, and dates.","inLanguage":"en"};
 
 export const metadata = {
-  metadataBase: new URL("https://portfolio-noelle-one.vercel.app"),
+  metadataBase: new URL("https://portfolio-noelle.pintuweb.id"),
   title: { default: "Noelle — UI/UX Designer", template: "%s — Noelle" },
   description: "Portfolio template for Noelle, a fictional UI/UX designer: calm, minimal case studies that link to six live demo sites (to-do apps and booking tools), plus articles on lists that forget, WIP limits, and dates.",
   applicationName: "Noelle",
@@ -20,11 +20,11 @@ export const metadata = {
   authors: [{ name: "Noelle" }],
   creator: "Noelle",
   publisher: "Noelle",
-  alternates: { canonical: "https://portfolio-noelle-one.vercel.app" },
+  alternates: { canonical: "https://portfolio-noelle.pintuweb.id" },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://portfolio-noelle-one.vercel.app",
+    url: "https://portfolio-noelle.pintuweb.id",
     siteName: "Noelle",
     title: "Noelle — UI/UX Designer",
     description: "Portfolio template for Noelle, a fictional UI/UX designer: calm, minimal case studies that link to six live demo sites (to-do apps and booking tools), plus articles on lists that forget, WIP limits, and dates.",

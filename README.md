@@ -2,7 +2,7 @@
 
 Portfolio template for Noelle, a fictional UI/UX designer: calm, minimal case studies that link to six live demo sites (to-do apps and booking tools), plus articles on lists that forget, WIP limits, and dates.
 
-**Demo live:** https://portfolio-noelle-one.vercel.app
+**Demo live:** https://portfolio-noelle.pintuweb.id
 
 ![Tangkapan layar](public/og.jpg)
 
@@ -21,12 +21,12 @@ Persona fiktif Noelle, desainer produk yang tenang dan rapi. Kartu putih bersudu
 
 | Studi kasus | Demo live |
 | --- | --- |
-| Hari Ini | https://todo-classic.vercel.app |
-| Lajur | https://todo-kanban-one.vercel.app |
-| Tuntas | https://todo-manager-ivory-seven.vercel.app |
-| Klinik Rumpun Waras | https://reservasi-klinik-rose.vercel.app |
-| Homigo | https://properti-homigo.vercel.app |
-| Pawon Lirih | https://reservasi-restoran-gilt.vercel.app |
+| Hari Ini | https://todo-classic.pintuweb.id |
+| Lajur | https://todo-kanban.pintuweb.id |
+| Tuntas | https://todo-manager.pintuweb.id |
+| Klinik Rumpun Waras | https://reservasi-klinik.pintuweb.id |
+| Homigo | https://properti-homigo.pintuweb.id |
+| Pawon Lirih | https://reservasi-restoran.pintuweb.id |
 
 ## Halaman
 

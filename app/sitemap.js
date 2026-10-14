@@ -1,6 +1,6 @@
 import { projects, posts } from '@/lib/data';
 
-const URL = 'https://portfolio-noelle-one.vercel.app';
+const URL = 'https://portfolio-noelle.pintuweb.id';
 
 export default function sitemap() {
   const now = new Date();
