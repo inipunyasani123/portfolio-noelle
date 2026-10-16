@@ -4,8 +4,9 @@ import { ArrowRight } from 'lucide-react';
 import PageHeader from '@/components/PageHeader';
 import Reveal from '@/components/ui/Reveal';
 import { profile, skills, experience, education } from '@/lib/data';
+import { pageMeta } from '@/lib/seo';
 
-export const metadata = { title: 'About' };
+export const metadata = pageMeta({ title: 'About', description: "About Noelle, a fictional UI/UX designer in Jakarta: calm tools for busy days, from to-do apps to booking flows, and where the work happened.", path: '/about' });
 
 export default function AboutPage() {
   return (

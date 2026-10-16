@@ -1,41 +1,31 @@
-import { Geist, Geist_Mono, Bricolage_Grotesque } from "next/font/google";
+import { Geist, Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ThemeProvider from "@/components/ThemeProvider";
 import ThemeToggle from "@/components/ThemeToggle";
+import { SITE_URL, SITE_NAME, SITE_TITLE, SITE_DESC, pageMeta } from "@/lib/seo";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
-const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 const bricolage = Bricolage_Grotesque({ variable: "--font-bricolage", subsets: ["latin"], weight: ["300", "400", "600", "700"] });
 
-const __jsonld = {"@context":"https://schema.org","@type":"WebSite","name":"Noelle — UI/UX Designer","description":"Portfolio template for Noelle, a fictional UI/UX designer: calm, minimal case studies that link to six live demo sites (to-do apps and booking tools), plus articles on lists that forget, WIP limits, and dates.","inLanguage":"en"};
+const __jsonld = {
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "WebSite", "@id": `${SITE_URL}/#website`, "url": SITE_URL, "name": SITE_TITLE, "description": SITE_DESC, "inLanguage": "en", "author": { "@id": `${SITE_URL}/#person` } },
+    { "@type": "Person", "@id": `${SITE_URL}/#person`, "name": "Noelle", "jobTitle": "UI/UX Designer", "description": "A fictional persona for this portfolio template.", "url": SITE_URL },
+  ],
+};
 
 export const metadata = {
-  metadataBase: new URL("https://portfolio-noelle.pintuweb.id"),
-  title: { default: "Noelle — UI/UX Designer", template: "%s — Noelle" },
-  description: "Portfolio template for Noelle, a fictional UI/UX designer: calm, minimal case studies that link to six live demo sites (to-do apps and booking tools), plus articles on lists that forget, WIP limits, and dates.",
-  applicationName: "Noelle",
+  metadataBase: new URL(SITE_URL),
+  title: { default: SITE_TITLE, template: `%s — ${SITE_NAME}` },
+  applicationName: SITE_NAME,
   keywords: ["UI/UX designer", "product designer", "portfolio", "user experience", "interface design"],
-  authors: [{ name: "Noelle" }],
-  creator: "Noelle",
-  publisher: "Noelle",
-  alternates: { canonical: "https://portfolio-noelle.pintuweb.id" },
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: "https://portfolio-noelle.pintuweb.id",
-    siteName: "Noelle",
-    title: "Noelle — UI/UX Designer",
-    description: "Portfolio template for Noelle, a fictional UI/UX designer: calm, minimal case studies that link to six live demo sites (to-do apps and booking tools), plus articles on lists that forget, WIP limits, and dates.",
-    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "Noelle — UI/UX Designer" }],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Noelle — UI/UX Designer",
-    description: "Portfolio template for Noelle, a fictional UI/UX designer: calm, minimal case studies that link to six live demo sites (to-do apps and booking tools), plus articles on lists that forget, WIP limits, and dates.",
-    images: ["/og.jpg"],
-  },
+  authors: [{ name: SITE_NAME }],
+  creator: SITE_NAME,
+  publisher: SITE_NAME,
+  ...pageMeta({ description: SITE_DESC, path: '/' }),
   robots: {
     index: true,
     follow: true,
@@ -45,11 +35,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${bricolage.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${geistSans.variable} ${bricolage.variable}`} suppressHydrationWarning>
       <body className="bg-white text-black antialiased">
+        <a href="#konten" className="skip-link">Skip to content</a>
         <ThemeProvider>
           <Header />
-          {children}
+          <div id="konten">{children}</div>
           <Footer />
           <ThemeToggle />
         </ThemeProvider>

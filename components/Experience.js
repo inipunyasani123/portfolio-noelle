@@ -2,7 +2,7 @@ import { experience } from '@/lib/data';
 
 export default function Experience() {
   return (
-    <section className="px-6 md:px-10 xl:px-24 py-20 max-w-5xl xl:max-w-7xl mx-auto">
+    <section className="px-6 md:px-10 xl:px-24 py-14 md:py-20 max-w-5xl xl:max-w-7xl mx-auto">
       {/* Heading */}
       <div className="mb-12 text-center md:text-left">
         <span className="inline-block text-xs uppercase tracking-wide bg-gray-200 text-gray-600 px-3 py-1 rounded-full mb-4">

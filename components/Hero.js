@@ -6,7 +6,7 @@ export default function Hero() {
   const [baris1, ...sisa] = profile.role.split(' ');
 
   return (
-    <section className="bg-white px-6 pt-32 pb-24 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+    <section className="bg-white px-6 pt-28 pb-14 md:pt-32 md:pb-24 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
       {/* Kiri: judul, ringkasan, proyek terbaru */}
       <div>
         <h1 className="text-4xl sm:text-5xl md:text-[64px] leading-tight text-black mb-6 font-light tracking-tight">
@@ -33,7 +33,7 @@ export default function Hero() {
       {/* Kanan: foto meja kerja + keterangan */}
       <div className="flex flex-col items-center md:items-end text-center md:text-right">
         <div className="w-[220px] sm:w-[260px] h-[320px] sm:h-[380px] relative rounded-xl overflow-hidden shadow-xl mb-4 bg-gray-200">
-          <Image src={profile.avatar} alt="" fill priority sizes="(max-width: 640px) 220px, 260px" className="object-cover" />
+          <Image src={profile.avatar} alt="" fill priority fetchPriority="high" sizes="(max-width: 640px) 216px, 260px" className="object-cover" />
         </div>
         <p className="text-sm text-gray-500">
           <span className="font-semibold text-black">{profile.name}</span> · {profile.location}

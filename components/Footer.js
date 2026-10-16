@@ -19,7 +19,7 @@ export default function Footer() {
         <div>
           <h2 className="font-semibold text-sm mb-2">Email</h2>
           <p className="text-sm text-gray-300">
-            <a href={`mailto:${profile.email}`} className="hover:text-white underline-offset-4 hover:underline">{profile.email}</a>
+            <a href={`mailto:${profile.email}`} className="inline-block py-1 hover:text-white underline-offset-4 hover:underline">{profile.email}</a>
           </p>
         </div>
 
@@ -33,10 +33,10 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto border-t border-gray-800 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-sm text-gray-400 order-2 md:order-1">© {new Date().getFullYear()} {profile.name}. All rights reserved.</p>
         <nav className="order-1 md:order-2" aria-label="Footer navigation">
-          <ul className="flex flex-wrap justify-center gap-6 text-sm text-gray-300">
+          <ul className="flex flex-wrap justify-center gap-x-6 text-sm text-gray-300">
             {nav.map((l) => (
               <li key={l.href}>
-                <Link href={l.href} className="hover:text-white">{l.label}</Link>
+                <Link href={l.href} className="inline-block py-2 hover:text-white">{l.label}</Link>
               </li>
             ))}
           </ul>

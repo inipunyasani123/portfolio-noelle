@@ -11,7 +11,7 @@ export default function ContactCTA() {
 
         <Link
           href="/contact"
-          className="inline-flex shrink-0 items-center gap-2 bg-white text-black px-6 py-3 rounded-full text-sm font-medium transition-colors hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black"
+          className="keep-light inline-flex min-h-12 shrink-0 items-center gap-2 bg-white text-black px-6 rounded-full text-sm font-medium transition-colors hover:bg-gray-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-black"
         >
           Start a project
           <ArrowRight size={18} aria-hidden="true" />

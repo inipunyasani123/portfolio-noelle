@@ -3,7 +3,7 @@ import { services } from '@/lib/data';
 
 export default function Services() {
   return (
-    <section className="px-6 md:px-10 xl:px-24 py-20 max-w-5xl xl:max-w-7xl mx-auto">
+    <section className="px-6 md:px-10 xl:px-24 py-14 md:py-20 max-w-5xl xl:max-w-7xl mx-auto">
       {/* Heading */}
       <div className="mb-12">
         <span className="inline-block text-xs uppercase tracking-wide bg-gray-200 text-gray-600 px-3 py-1 rounded-full mb-4">
