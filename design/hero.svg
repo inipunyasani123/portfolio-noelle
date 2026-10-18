@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1460" viewBox="0 0 1000 1460">
+  <defs><clipPath id="nh-torso"><path d="M -60 214 C -140 236 -270 252 -330 306 C -392 362 -410 450 -420 760 L 420 760 C 410 450 392 362 330 306 C 270 252 140 236 60 214 Z"/></clipPath></defs>
+  <rect width="1000" height="1460" fill="#fbfaf8"/>
+  <!-- sketsa antarmuka di latar: kartu daftar tugas -->
+  <g fill="none" stroke="#cfccc4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="96" y="150" width="560" height="420" rx="34"/>
+    <rect x="146" y="214" width="34" height="34" rx="8"/><path d="M 206 231 H 470"/>
+    <rect x="146" y="290" width="34" height="34" rx="8"/><path d="M 206 307 H 520"/>
+    <rect x="146" y="366" width="34" height="34" rx="8"/><path d="M 206 383 H 420"/>
+    <path d="M 152 448 l 10 12 l 22 -26"/><path d="M 206 455 H 380"/>
+  </g>
+  <rect x="640" y="230" width="230" height="230" rx="10" fill="#e7e5e0" transform="rotate(5 755 345)"/>
+  <path d="M 680 300 h 140 M 680 340 h 110 M 680 380 h 130" stroke="#cfccc4" stroke-width="10" stroke-linecap="round" transform="rotate(5 755 345)"/>
+  <circle cx="500" cy="790" r="290" fill="#e7e5e0"/>
+  <g transform="translate(500 800) scale(1.34)">
+  <g>
+    <!-- isian bergeser -->
+    <path d="M 0 -196 C 82 -196 130 -136 130 -54 C 130 22 120 76 96 112 C 72 146 38 166 0 166 C -38 166 -72 146 -96 112 C -120 76 -130 22 -130 -54 C -130 -136 -82 -196 0 -196 Z" transform="translate(14 8)" fill="#efd3bb"/>
+    <path d="M -50 110 L -54 236 Q 0 262 54 236 L 50 110 Z" transform="translate(14 8)" fill="#efd3bb"/>
+    <path d="M -50 150 Q 0 205 50 150 L 50 185 Q 0 232 -50 185 Z" transform="translate(14 8)" fill="#e2bb9c"/>
+    <!-- badan: kaus garis-garis (Breton) -->
+    <path d="M -60 214 C -140 236 -270 252 -330 306 C -392 362 -410 450 -420 760 L 420 760 C 410 450 392 362 330 306 C 270 252 140 236 60 214 Z" fill="#fff"/>
+    <g clip-path="url(#nh-torso)"><path d="M -440 262 H 440" stroke="#141414" stroke-width="10"/><path d="M -440 296 H 440" stroke="#141414" stroke-width="10"/><path d="M -440 330 H 440" stroke="#141414" stroke-width="10"/><path d="M -440 364 H 440" stroke="#141414" stroke-width="10"/><path d="M -440 398 H 440" stroke="#141414" stroke-width="10"/><path d="M -440 432 H 440" stroke="#141414" stroke-width="10"/><path d="M -440 466 H 440" stroke="#141414" stroke-width="10"/><path d="M -440 500 H 440" stroke="#141414" stroke-width="10"/><path d="M -440 534 H 440" stroke="#141414" stroke-width="10"/><path d="M -440 568 H 440" stroke="#141414" stroke-width="10"/><path d="M -440 602 H 440" stroke="#141414" stroke-width="10"/><path d="M -440 636 H 440" stroke="#141414" stroke-width="10"/><path d="M -440 670 H 440" stroke="#141414" stroke-width="10"/><path d="M -440 704 H 440" stroke="#141414" stroke-width="10"/><path d="M -440 738 H 440" stroke="#141414" stroke-width="10"/><path d="M -440 772 H 440" stroke="#141414" stroke-width="10"/></g>
+    <path d="M -60 214 C -140 236 -270 252 -330 306 C -392 362 -410 450 -420 760 L 420 760 C 410 450 392 362 330 306 C 270 252 140 236 60 214 Z" fill="none" stroke="#141414" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M -64 216 Q 0 262 64 216" fill="#fff" stroke="#141414" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M -56 222 Q 0 252 56 222" fill="none" stroke="#141414" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- leher -->
+    <path d="M -48 146 L -52 224" fill="none" stroke="#141414" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M 52 140 L 56 222" fill="none" stroke="#141414" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- rambut -->
+    <path d="M -150 150 C -170 60 -172 -50 -158 -120 C -140 -200 -76 -244 4 -242 C 86 -240 148 -190 162 -112 C 174 -40 170 70 152 150 C 132 162 112 160 98 150 C 110 92 116 36 116 -24 C 116 -50 110 -74 96 -88 C 56 -76 14 -86 -26 -108 C -60 -126 -98 -122 -116 -98 C -120 -60 -118 0 -112 60 C -108 100 -102 130 -100 150 C -112 160 -130 160 -150 150 Z" fill="#141414"/>
+    <path d="M -96 -150 C -60 -176 -10 -184 30 -176" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" opacity=".55"/>
+    <path d="M -132 -60 C -136 -10 -134 50 -126 110" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round" opacity=".35"/>
+    <!-- garis wajah: rahang & dagu -->
+    <path d="M -116 40 C -110 82 -94 112 -74 134 C -52 156 -26 166 0 166 C 30 166 62 150 86 120" fill="none" stroke="#141414" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- jepit rambut -->
+    <rect x="34" y="-112" width="58" height="13" rx="6.5" fill="#cfccc4" stroke="#141414" stroke-width="4" transform="rotate(-16 63 -105)"/>
+    <!-- anting -->
+    <circle cx="-118" cy="96" r="7" fill="#141414"/>
+    <!-- fitur -->
+    <path d="M -80 -46 Q -60 -58 -38 -50" fill="none" stroke="#141414" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 34 -50 Q 56 -58 78 -46" fill="none" stroke="#141414" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M -80 -10 Q -58 -26 -36 -10" fill="none" stroke="#141414" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 34 -10 Q 56 -26 78 -10" fill="none" stroke="#141414" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="-58" cy="-6" r="8" fill="#141414"/><circle cx="56" cy="-6" r="8" fill="#141414"/>
+    <path d="M -4 4 C 0 22 6 36 9 46 C 11 54 4 58 -6 56" fill="none" stroke="#141414" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M -24 98 Q 0 112 24 98" fill="none" stroke="#141414" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M -14 112 Q 0 118 14 112" stroke="#141414" stroke-width="4" fill="none" stroke-linecap="round" opacity=".5"/>
+    
+  </g></g>
+</svg>

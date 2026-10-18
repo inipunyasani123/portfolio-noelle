@@ -30,10 +30,10 @@ export default function Hero() {
         </ul>
       </div>
 
-      {/* Kanan: foto meja kerja + keterangan */}
+      {/* Kanan: potret ilustrasi + keterangan */}
       <div className="flex flex-col items-center md:items-end text-center md:text-right">
         <div className="w-[220px] sm:w-[260px] h-[320px] sm:h-[380px] relative rounded-xl overflow-hidden shadow-xl mb-4 bg-gray-200">
-          <Image src={profile.avatar} alt="" fill priority fetchPriority="high" sizes="(max-width: 640px) 216px, 260px" className="object-cover" />
+          <Image src={profile.avatar} alt={profile.avatarAlt} fill priority fetchPriority="high" sizes="(max-width: 640px) 220px, 260px" className="object-cover" />
         </div>
         <p className="text-sm text-gray-500">
           <span className="font-semibold text-black">{profile.name}</span> · {profile.location}
