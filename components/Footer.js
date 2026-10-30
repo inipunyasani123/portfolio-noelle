@@ -19,7 +19,7 @@ export default function Footer() {
         <div>
           <h2 className="font-semibold text-sm mb-2">Email</h2>
           <p className="text-sm text-gray-300">
-            <a href={`mailto:${profile.email}`} className="inline-block py-1 hover:text-white underline-offset-4 hover:underline">{profile.email}</a>
+            <a href={`mailto:${profile.email}`} className="inline-block py-3 hover:text-white underline-offset-4 hover:underline">{profile.email}</a>
           </p>
         </div>
 
@@ -36,7 +36,7 @@ export default function Footer() {
           <ul className="flex flex-wrap justify-center gap-x-6 text-sm text-gray-300">
             {nav.map((l) => (
               <li key={l.href}>
-                <Link href={l.href} className="inline-block py-2 hover:text-white">{l.label}</Link>
+                <Link href={l.href} className="inline-block py-3 hover:text-white">{l.label}</Link>
               </li>
             ))}
           </ul>

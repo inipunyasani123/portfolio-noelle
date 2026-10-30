@@ -13,7 +13,7 @@ export default function Services() {
         <p className="text-sm text-gray-600">From the first flow to the last edge case, for web apps that people use every day.</p>
         <Link
           href="/contact"
-          className="mt-4 inline-block border border-black px-6 py-2 rounded-full text-sm hover:bg-black hover:text-white transition-colors duration-300"
+          className="mt-4 inline-flex min-h-11 items-center border border-black px-6 rounded-full text-sm hover:bg-black hover:text-white transition-colors duration-300"
         >
           Start a project
         </Link>

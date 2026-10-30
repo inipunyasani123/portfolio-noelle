@@ -21,7 +21,7 @@ export default function Hero() {
             <li key={p.slug}>
               <Link
                 href={`/work/${p.slug}`}
-                className="inline-block bg-gray-100 text-gray-700 text-xs sm:text-sm px-4 py-2 rounded-full font-medium tracking-wide transition hover:bg-black hover:text-white"
+                className="inline-flex min-h-11 items-center bg-gray-100 text-gray-700 text-xs sm:text-sm px-4 rounded-full font-medium tracking-wide transition hover:bg-black hover:text-white"
               >
                 {p.title}
               </Link>

@@ -40,7 +40,7 @@ export default function Header() {
         )}
       >
         {/* Logo */}
-        <Link href="/" className="flex items-center space-x-2">
+        <Link href="/" className="flex min-h-11 items-center space-x-2">
           <span aria-hidden="true" className={clsx('flex h-8 w-8 items-center justify-center rounded-full border-2 text-sm font-bold', scrolled ? 'border-white' : 'border-black')}>N</span>
           <span className="text-2xl font-bold tracking-tight">Noelle</span>
         </Link>
